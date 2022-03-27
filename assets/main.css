@@ -1,0 +1,50 @@
+@import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300i,400i");
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+* {
+    margin: 0%;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 70%, rgba(169,238,209,1) 100%);
+    position: relative;
+    width: auto;
+    height: 100%;
+}
+
+.logo {
+    width: 40%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    display: block;
+    padding-bottom: 550px;
+}
+
+.button {
+    font-size: 72px;
+    margin: 5% auto 5% auto;
+    text-align: center;
+    padding: 2% 2% 2% 2%;
+    display: block;
+    background: #8FDDDF;
+    width: 40%;
+    border-radius: 15px;
+    user-select: none;
+    text-decoration: none;
+}
+.button:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    filter: brightness(75%);
+}
+.light {
+    background: rgb(240, 240, 240);
+}
